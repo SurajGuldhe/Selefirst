@@ -1,0 +1,13 @@
+package com.tka.pfd.seleniumfirst;
+
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Dayfirst {
+	
+	public static void main(String[] args) {
+ChromeDriver driver = new ChromeDriver();
+driver.get("https://www.instagram.com/");
+	
+	}
+
+}
